@@ -22,7 +22,6 @@ import com.example.demo.repository.USerRepositpry;
 
 @Service
 public class PasswordForgotService {
-
 	@Autowired
 	USerRepositpry userRepository;
 	@Autowired

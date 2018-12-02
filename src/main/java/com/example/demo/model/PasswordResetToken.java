@@ -28,11 +28,10 @@ public class PasswordResetToken {
 	public Long getReset_token_id() {
 		return reset_token_id;
 	}
-
 	public void setReset_token_id(Long reset_token_id) {
 		this.reset_token_id = reset_token_id;
+		
 	}
-
 	public String getToken() {
 		return token;
 	}
@@ -46,9 +45,11 @@ public class PasswordResetToken {
 	}
 
 	public void setUser(User user) {
+		
 		this.user = user;
 	}
 
+	
 	public Date getExpiryDate() {
 		return expiryDate;
 	}
